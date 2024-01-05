@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Green Mentor Assignment Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Green Mentor Assignment Dashboard! This project is a web application built with React.js, Chakra UI, Tailwind CSS, and Chart.js to visualize data using bar charts, pie charts, and line charts.
 
-## Available Scripts
+## Screenshots
+![Dashboard Screenshot](./Screenshot%20(1379).png)
+![Dashboard Screenshot](./Screenshot%20(1378).png)
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
+Explore the live demo of the Green Mentor Assignment Dashboard: [Green Mentor Assignment Demo](https://green-mentor-assignment.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
+- React.js
+- Chakra UI
+- Tailwind CSS
+- Chart.js
 
-### `npm test`
+## Installation
+To run this project locally, follow these steps:
+1. Clone the repository: `git clone https://github.com/your-username/green-mentor-assignment.git`
+2. Change into the project directory: `cd green-mentor-assignment`
+3. Install dependencies: `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+Once the installation is complete, you can start the development server using the following command:
+```bash
+npm start
+```
+Visit [http://localhost:3000](http://localhost:3000) in your web browser to view the Green Mentor Assignment Dashboard.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request.
 
-### `npm run eject`
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore, modify, and use the code in accordance with the license terms. If you have any questions or suggestions, feel free to open an issue. Happy coding!
