@@ -8,6 +8,7 @@ import SidebarLeft from "./components/SidebarLeft";
 import { data } from "./Data";
 import MainSidebar from "./components/MainSidebar";
 import Cards from "./components/Cards";
+import SupplierTable from "./components/SupplierTable";
 
 function App() {
   return (
@@ -26,11 +27,20 @@ function App() {
         </ChakraProvider>
         <BarChart Data={data} />
 
+
         </div>
         
        
       </div>
-      <PieChart Data={data} />
+    
+    
+     <div  style={{  width:"70" ,display: "flex", justifyContent:"center", alignItems:"center"}}>
+     <PieChart Data={data} />
+     <SupplierTable Data={data} />
+     </div>
+    
+    
+
 
     </div>
   );

@@ -46,7 +46,7 @@ const PieChart = ({ Data }) => {
   };
 
   return(
-  <div style={{width: 400, height: 600}}>
+  <div style={{width: 550, height: 530, border:"2px solid blue", marginRight:"50px", marginTop:"50px"}}>
      <Pie data={chartData} options={options} />;
   </div>
   
