@@ -73,3 +73,5 @@ const BarChart = ({ Data }) => {
 
 export default BarChart;
 
+
+

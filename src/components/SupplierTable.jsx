@@ -25,24 +25,24 @@ const SupplierTable = ({ Data }) => {
   const momValues = calculateMoM();
 
   return (
-    <Box mt={50} p="6" borderRadius="lg" boxShadow="lg" bg="white">
+    <Box  mt={50} p="6" borderRadius="lg" boxShadow="lg" bg="white">
      
       <Table variant="striped" colorScheme="teal" borderWidth="1px" borderColor="gray.200">
         <Thead>
           <Tr>
-            <Th borderBottom="1px" borderColor="gray.300" w="20%">Date</Th>
-            <Th borderBottom="1px" borderColor="gray.300" w="30%">Supplier</Th>
-            <Th borderBottom="1px" borderColor="gray.300" w="20%">Revenue</Th>
-            <Th borderBottom="1px" borderColor="gray.300" w="30%">MoM Change</Th>
+            <Th borderBottom="1px" borderColor="gray.300" >Date</Th>
+            <Th borderBottom="1px" borderColor="gray.300">Supplier</Th>
+            <Th borderBottom="1px" borderColor="gray.300" >Revenue</Th>
+            <Th borderBottom="1px" borderColor="gray.300" >MoM Change</Th>
           </Tr>
         </Thead>
         <Tbody>
           {Data.map((item, index) => (
-            <Tr key={index} maxW="100%" marginBottom="8px"> {/* Added maxW for the entire row */}
-              <Td borderBottom="1px" borderColor="gray.300" w="20%">{item.Date}</Td>
-              <Td borderBottom="1px" borderColor="gray.300" w="30%">{item.Supplier}</Td>
-              <Td borderBottom="1px" borderColor="gray.300" w="20%">{item.Revenue}</Td>
-              <Td borderBottom="1px" color={momValues[index] > 0 ? 'green' : 'red'} borderColor="gray.300" w="30%">
+            <Tr key={index}  marginBottom="8px"> {/* Added maxW for the entire row */}
+              <Td borderBottom="1px" borderColor="gray.300" >{item.Date}</Td>
+              <Td borderBottom="1px" borderColor="gray.300" >{item.Supplier}</Td>
+              <Td borderBottom="1px" borderColor="gray.300" >{item.Revenue}</Td>
+              <Td borderBottom="1px" color={momValues[index] > 0 ? 'green' : 'red'} borderColor="gray.300" >
                 {momValues[index] > 0 ? `↑ ${momValues[index]}%` : `↓ ${Math.abs(momValues[index])}%`}
               </Td>
             </Tr>
