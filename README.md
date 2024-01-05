@@ -3,7 +3,7 @@
 Welcome to the Green Mentor Assignment Dashboard! This project is a web application built with React.js, Chakra UI, Tailwind CSS, and Chart.js to visualize data using bar charts, pie charts, and line charts.
 
 ## Screenshots
-![Dashboard Screenshot](./Screenshot%20(1379).png)
+![Dashboard Screenshot](./Screenshot%20(1377).png)
 ![Dashboard Screenshot](./Screenshot%20(1378).png)
 
 
